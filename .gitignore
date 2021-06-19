@@ -19,3 +19,6 @@ docs/site/
 docs/Manifest.toml
 
 Manifest.toml
+
+# Markdown stuff from obsidian
+.obsidian/
