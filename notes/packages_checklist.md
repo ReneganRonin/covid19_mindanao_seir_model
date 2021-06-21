@@ -4,6 +4,8 @@ Legend: :star: Highly-likely to be used, :question: Still thinking - otherwise n
 - Flux.jl :star:
 - Plots.jl :star:
 - DifferentialEquations.jl :star:
+	- Stochastic
+	- Ordinary
 - Pathogen.jl :question:
 - Pluto.jl :star:
 - CUDA.jl :question:
