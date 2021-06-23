@@ -1,3 +1,7 @@
+# Study
+- [ ] [SEIR Model](https://julia.quantecon.org/continuous_time/seir_model.html)
+- [ ] [SIRD Model and Stochastic Diff Eq](https://julia.quantecon.org/continuous_time/covid_sde.html)
+
 # Todos
 - [ ] Use numbers and not words
 - [ ] Describe location's current COVID19 situation
