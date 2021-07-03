@@ -34,4 +34,5 @@
 - Done creating the project template
 - Done writing the base module "MindanaoCOVID"
 - Done creating the download datasets function
+- Done creating preliminary plot for timeseries
 
