@@ -5,7 +5,7 @@
 
 while true; do
 	echo "`date`: Starting the project... "
-	julia --project=. -e "using Pkg; Pkg.instantiate(); using MindanaoCOVID; download_datasets();"
+	julia --project=. -e "using Pkg; Pkg.instantiate(); using MindanaoCOVID; download_datasets(); plotter()"
 	if [[ "$RUN_ONCE" == "yes" ]]; then
 		break
 	fi
