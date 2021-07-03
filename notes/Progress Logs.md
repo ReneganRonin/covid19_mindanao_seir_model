@@ -29,4 +29,9 @@
 - Added the data and the reason of the speed of COVID19 spread.
 - Time to rest.
 
+##### 06:41PM - Saturday, July 03, 2021 Philippine Standard Time
+
+- Done creating the project template
+- Done writing the base module "MindanaoCOVID"
+- Done creating the download datasets function
 
