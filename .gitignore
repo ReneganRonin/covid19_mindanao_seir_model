@@ -22,3 +22,5 @@ Manifest.toml
 
 # Markdown stuff from obsidian
 .obsidian/
+dataset/
+hidden/

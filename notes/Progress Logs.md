@@ -36,3 +36,8 @@
 - Done creating the download datasets function
 - Done creating preliminary plot for timeseries
 
+##### 22:10PM - Sunday, July 4, 2021, Philippine Standard Time
+
+- Fixed cleaner function
+- Updated some packages
+
