@@ -24,3 +24,6 @@ Manifest.toml
 .obsidian/
 dataset/
 hidden/
+
+# VSCode related stuff
+.vscode/
