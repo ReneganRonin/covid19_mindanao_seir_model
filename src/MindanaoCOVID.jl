@@ -24,6 +24,7 @@ include("main.jl")
 include("plots/preliminary_plot.jl")
 #include("utils/extract_ph.jl")
 include("utils/cleaners.jl")
+include("utils/functions.jl")
 
 """
     download_datasets()
