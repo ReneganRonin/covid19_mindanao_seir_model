@@ -1,6 +1,10 @@
 # Packages
-using ModelingToolkit, DifferentialEquations, Symbolics, Parameters, Random, Statistics
-
+using ModelingToolkit
+using DifferentialEquations
+using Symbolics
+using Parameters
+using Random
+using Statistics
 """
     create_model()
 

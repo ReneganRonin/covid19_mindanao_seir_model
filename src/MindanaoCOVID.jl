@@ -8,7 +8,7 @@ using Query
 using Dates
 using StochasticDiffEq
 using Plots
-import Downloads: download as dl
+using Downloads
 
 # Exports
 export download_datasets
@@ -40,14 +40,13 @@ function download_datasets()
         # @info "Downloaded global deaths"
         # dl(RECOVERED_GLOBAL_DATASET, DL_RECOVERED; verbose=true)
         # @info "Downloaded global recovered"
-        dl(DAILY_COVID_PH_URL, DAILY_PH_COVID; verbose=true)
+        Downloads.download(DAILY_COVID_PH_URL, DAILY_PH_COVID; verbose=true)
         @info "Downloaded Daily COVID Philippines data"
-        dl(WEEKLY_COVID_PH_URL, WEEKLY_PH_COVID; verbose=true)
+        Downloads.download(WEEKLY_COVID_PH_URL, WEEKLY_PH_COVID; verbose=true)
         @info "Downloaded Weekly COVID Philippines data"
     else
         @warn "No downloads happened"
     end
-
 end
 
 end
